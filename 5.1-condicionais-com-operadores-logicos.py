@@ -29,3 +29,12 @@ z = 5.5;
 # res = not a>b;
 res = (a>b) and (z==y)
 print(res);
+
+# Exercícios para o cálculo de Médias:
+m1 = float(input("Informe a nota da primeira matéria: "));
+m2 = float(input('Informe a nota da segunda matéria: '));
+m3 = float(input('Agora, informe a nota da terceira matéria: '));
+if(m1>7 and m2>7 and m3>7):
+    print('O aluno está APROVADO');
+else:
+    print('O aluno foi reprovado em, pelo menos, uma matéria');
